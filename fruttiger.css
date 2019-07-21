@@ -1,0 +1,66 @@
+body{
+    font-family: Helvetica;
+    color: white;
+    background-color: #15427B;
+}
+
+.menu{
+    background-color: pink;
+    height: 2em;
+    text-align: center;
+}
+
+.nav_elem{
+    width: 30%;
+    background-color: aqua;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.2em;
+}
+
+.content{
+    background-color: brown; 
+    height: 20em;
+    text-align: center;
+}
+.content_elem{
+    width: 30%;
+    text-align: center;
+    background-color: green;
+    padding: 0.2em;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    margin: auto;
+    visibility: hidden;
+}
+
+.content_elem:hover{
+    visibility: visible;
+    /* transition: 0.1s; */
+}
+
+.test{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.test:hover{
+    background-color: green;
+}
+a{
+    color: white;
+}
+a:hover{
+    border-bottom: 0.4em white solid;
+}
+
+ul{
+    list-style-position: inside;
+    display: inline-block;
+    text-align: left;
+}
+
+
+
